@@ -22,7 +22,7 @@ function App ()  {
           <Layout>
           <Switch>
           <Route  exact path="/" component={Home} />
-          <Route  exact path="/conoceme" component={About} />
+          <Route  exact path="/nosotros" component={About} />
           <Route  exact path="/servicios" component={Services}  />
           <Route  exact path="/contacto"  component={Contact} />
           <Route component={NotFound} />
