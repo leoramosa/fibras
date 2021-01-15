@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.003b5000.chunk.css",
+    "main.js": "/static/js/main.7ed40c66.chunk.js",
+    "main.js.map": "/static/js/main.7ed40c66.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fa41e69d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fa41e69d.js.map",
+    "static/css/2.5e8947ba.chunk.css": "/static/css/2.5e8947ba.chunk.css",
+    "static/js/2.cb1e237b.chunk.js": "/static/js/2.cb1e237b.chunk.js",
+    "static/js/2.cb1e237b.chunk.js.map": "/static/js/2.cb1e237b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.5e8947ba.chunk.css.map": "/static/css/2.5e8947ba.chunk.css.map",
+    "static/css/main.003b5000.chunk.css.map": "/static/css/main.003b5000.chunk.css.map",
+    "static/js/2.cb1e237b.chunk.js.LICENSE.txt": "/static/js/2.cb1e237b.chunk.js.LICENSE.txt",
+    "static/media/about-back.ff7458a8.png": "/static/media/about-back.ff7458a8.png",
+    "static/media/about-mobile.88c6fff9.png": "/static/media/about-mobile.88c6fff9.png",
+    "static/media/bars-solid.e8db7520.svg": "/static/media/bars-solid.e8db7520.svg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.46fdbd2d.woff",
+    "static/media/piscin.5a84137d.jpg": "/static/media/piscin.5a84137d.jpg",
+    "static/media/pool.5332fbfb.mp4": "/static/media/pool.5332fbfb.mp4",
+    "static/media/times-solid.ea7c95d7.svg": "/static/media/times-solid.ea7c95d7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa41e69d.js",
+    "static/css/2.5e8947ba.chunk.css",
+    "static/js/2.cb1e237b.chunk.js",
+    "static/css/main.003b5000.chunk.css",
+    "static/js/main.7ed40c66.chunk.js"
+  ]
+}
