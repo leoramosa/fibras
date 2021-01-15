@@ -32,8 +32,8 @@ const Testimonials = () => {
             <img src={Pis} alt=""/>
           </div>
           <div className="information-service">
-            <p className="title-product"> Pisceninas</p>
-            <p className="title-info">Especialistas en Lima y Perú de toda clase de Granito tanto nacional como importado. El mejor material para su casa.</p>
+            <p className="title-product"> Servicio 1</p>
+            <p className="title-info">ext ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchang</p>
             <div className="button">
               <button type="button">Ver servicio</button>
             </div>
@@ -46,8 +46,8 @@ const Testimonials = () => {
             <img src={Pis} alt=""/>
           </div>
           <div className="information-service">
-            <p className="title-product"> Pisceninas</p>
-            <p className="title-info">Especialistas en Lima y Perú de toda clase de Granito tanto nacional como importado. El mejor material para su casa.</p>
+            <p className="title-product">  Servicio 2</p>
+            <p className="title-info">ext ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchang</p>
             <div className="button">
               <button type="button">Ver servicio</button>
             </div>
@@ -60,8 +60,8 @@ const Testimonials = () => {
             <img src={Pis} alt=""/>
           </div>
           <div className="information-service">
-            <p className="title-product"> Pisceninas</p>
-            <p className="title-info">Especialistas en Lima y Perú de toda clase de Granito tanto nacional como importado. El mejor material para su casa.</p>
+            <p className="title-product"> Servicio 3</p>
+            <p className="title-info">ext ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchang</p>
             <div className="button">
               <button type="button">Ver servicio</button>
             </div>
