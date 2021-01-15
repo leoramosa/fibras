@@ -1,0 +1,33 @@
+.content_testimonials {
+	margin: auto;
+	max-width: 1200px;
+	width: 100%;
+}
+.content-service {
+	display: flex;
+	flex-direction: column;
+}
+
+.img-elemnet {
+	text-align: center;
+}
+.img-elemnet img {
+	max-width: 321px;
+	border-radius: 50%;
+	height: 321px;
+}
+
+.information-service {
+	text-align: center;
+}
+
+.title-product {
+	font-size: 35px;
+	padding-bottom: 11px;
+}
+
+.title-info {
+	padding-bottom: 19px;
+}
+@media only screen and (max-width: 576px) {
+}
