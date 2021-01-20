@@ -1,49 +1,71 @@
 .content_about {
-	height: 100%;
-	display: flex;
-	width: 100%;
-	position: absolute;
-}
-
-.content_about-global {
-	display: flex;
-	width: 100%;
-}
-
-.content_img-about {
-	width: 60%;
-	height: 100%;
-	position: relative;
-	background: radial-gradient(ellipse at bottom, #663871 0%, #4c1977 100%);
-	overflow: hidden;
-}
-
-.about-img {
-	height: 100%;
-	display: flex;
-	justify-content: flex-end;
-}
-
-.about-img img {
-	height: 100%;
-}
-
-.content_detail-about {
-	width: 40%;
-	padding: 5px;
-	height: 100%;
-}
-
-.info-autor {
-	font-size: 17px;
-	width: 50%;
-	color: #57387a;
+	max-width: 1140px;
+	margin: auto;
+	margin-top: 0;
 	font-family: 'Quicksand', sans-serif;
 }
+.about-img {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.about-img img {
+	width: 100%;
+}
+.content_info-about {
+	padding-bottom: 30px;
+}
+.content_info-about p {
+	line-height: 26px;
+}
+.about-img img {
+	border-radius: 9px;
+	border: 1px solid #c3c3c3;
+}
+.about-mision {
+	display: flex;
+	padding: 0 87px;
+	padding-bottom: 45px;
+}
+.about-vision {
+	display: flex;
+	padding: 0 87px;
+	padding-bottom: 45px;
+}
+.mision-left img {
+	max-width: 450px;
+	border-radius: 11px;
+	border: 2px solid #c3c3c3;
+	box-shadow: 4px 3px 7px 0px #00000066;
+}
+.vision-right img {
+	max-width: 450px;
+	border-radius: 11px;
+	border: 2px solid #c3c3c3;
+	box-shadow: 4px 3px 7px 0px #00000066;
+}
+.mision-right {
+	padding-left: 35px;
+}
+.vision-left {
+	padding-right: 35px;
+}
+.title_mision {
+	font-size: 25px;
+	padding-bottom: 15px;
+	font-weight: 600;
+	color: #0674e7;
+}
+.title_vision {
+	font-size: 25px;
+	padding-bottom: 15px;
+	font-weight: 600;
+	color: #0674e7;
+}
 
-.info-autor p {
-	padding-left: 32px;
-	padding-top: 20px;
+.info_mision {
+	line-height: 26px;
+}
+.info_vision {
 	line-height: 26px;
 }
 

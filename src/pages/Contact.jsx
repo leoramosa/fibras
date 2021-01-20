@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from '../components/forms/Form'
 import './styles/contact.css'
 export default function Contact() {
 
@@ -8,7 +9,7 @@ export default function Contact() {
     <div className="content_service-detail">
     <div className="header-contact-1">
           <div className="header-content">
-            <div className="">
+            <div className="overlay_content">
                 <div className="content-title">
                     <p>
                       Contacto
@@ -17,6 +18,10 @@ export default function Contact() {
               </div>
           </div>
         </div>
+    <div className="contact-content">
+
+    <Form/>
+    </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 .content_navbar {
-	border-bottom: 1px solid #b68ada96;
-	background: linear-gradient(90deg, #1c4d94 0%, rgb(10, 40, 189) 100%);
+	border-bottom: 1px solid white;
+	background: linear-gradient(90deg, #0674e7 0%, #139bf7 100%);
 }
 
 .content-nav {
@@ -18,7 +18,7 @@
 
 a {
 	text-decoration: none;
-	color: #c1b3ce;
+	color: white;
 	font-size: 18px;
 	font-weight: 400;
 	font-family: 'Quicksand', sans-serif;
@@ -30,7 +30,6 @@ a:hover {
 	list-style: none;
 	display: inline-block;
 	padding: 0px 37px;
-	text-transform: uppercase;
 }
 .menu {
 	display: none;

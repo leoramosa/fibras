@@ -28,7 +28,7 @@ const NavBar = () => {
 
             
             <ul style={styleMenu}>
-                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/" exact>Home</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/" exact>Inicio</NavLink></li>
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/nosotros" exact>Nosotros</NavLink></li>
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/servicios" exact>Servicios</NavLink></li>
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/contacto" exact>Contacto</NavLink></li>

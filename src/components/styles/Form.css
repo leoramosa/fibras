@@ -51,7 +51,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: #573883;
+	color: #0674e7;
 }
 
 .form-content-right-success {
@@ -82,7 +82,7 @@
 h1.form-success {
 	text-align: center;
 	font-size: 24px;
-	color: #573883;
+	color: #0674e7;
 }
 
 .form-inputs {
@@ -116,7 +116,7 @@ h1.form-success {
 	height: 40px;
 	width: 100%;
 	border: none;
-	border: 1px solid #af8bd0;
+	border: 1px solid #0674e7;
 	padding: 10px 13px;
 }
 
@@ -130,7 +130,7 @@ h1.form-success {
 	height: 50px;
 	margin-top: 10px;
 	border-radius: 2px;
-	background: linear-gradient(90deg, #7619eb 0%, #b379fb 100%);
+	background: linear-gradient(90deg, #0674e7 0%, #0a5fbb 100%);
 	outline: none;
 	border: none;
 	color: #fff;
@@ -156,7 +156,7 @@ h1.form-success {
 
 .form-input-btn:hover {
 	cursor: pointer;
-	background: linear-gradient(90deg, #b379fb 0%, #7619eb 100%);
+	background: linear-gradient(90deg, #0674e7 0%, #0674e7 100%);
 	transition: all 0.4s ease-out;
 }
 
@@ -201,7 +201,7 @@ h1.form-success {
 
 .content-btn {
 	display: flex;
-	border: 2px solid #771bec;
+	border: 2px solid #0674e7;
 	border-radius: 25px;
 	align-items: center;
 	font-weight: 600;
@@ -210,6 +210,10 @@ h1.form-success {
 
 .img-what img {
 	width: 35px;
+}
+
+.map_google {
+	padding-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {

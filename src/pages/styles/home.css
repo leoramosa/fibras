@@ -6,6 +6,13 @@
 .header_home {
 	position: relative;
 }
+.content_home {
+	width: 100%;
+}
+
+.cover-img {
+	width: 100%;
+}
 
 .element-home {
 	position: absolute;
@@ -27,6 +34,7 @@
 	top: 0;
 	z-index: 2;
 }
+
 @media only screen and (max-width: 1400px) {
 	.logo-lettering {
 		top: 20%;
