@@ -7,6 +7,7 @@ import Services from  '../pages/Services'
 import NotFound from  '../pages/NotFound'
 import Contact from  '../pages/Contact'
 import Layout from '../pages/Layout';
+import ServiceOne from '../pages/ProductService/ServiceOne';
 import AppContext from '../context/AppContext'
 import useInitialState from '../hooks/useInitialState'
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -25,6 +26,7 @@ function App ()  {
           <Route  exact path="/nosotros" component={About} />
           <Route  exact path="/servicios" component={Services}  />
           <Route  exact path="/contacto"  component={Contact} />
+          <Route  exact path="/one"  component={ServiceOne} />
           <Route component={NotFound} />
         </Switch>
         </Layout>
