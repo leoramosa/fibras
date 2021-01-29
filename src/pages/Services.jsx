@@ -30,7 +30,7 @@ function Services () {
               Mis servicios
             </p>
           </div>
-          <div className="row_service">
+          <div className="row_service one">
           <div className="content-service-g">
                   <div className="services_all" >
                     <div className="wrapper_all">
@@ -96,7 +96,7 @@ function Services () {
                    </div>
           </div>
           </div>
-          <div className="row_service">
+          <div className="row_service one">
           <div className="content-service-g">
                   <div className="services_all" >
                     <div className="wrapper_all">

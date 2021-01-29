@@ -1,10 +1,13 @@
 .content_services {
 	width: 100%;
 	font-family: 'Quicksand', sans-serif;
-	padding-bottom: 55px;
 }
 .row_service {
 	padding: 25px 0;
+}
+.row_service.one {
+	background: url('../../images/background-cover.jpg') no-repeat;
+	background-size: cover;
 }
 .row_service.two {
 	background-color: #e2e2e2;
