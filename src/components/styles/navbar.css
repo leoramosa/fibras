@@ -1,6 +1,7 @@
 .content_navbar {
-	border-bottom: 1px solid white;
-	background: linear-gradient(90deg, #0674e7 0%, #139bf7 100%);
+	border-bottom: 2px solid #0563c7;
+	background: #ffffff;
+	/* background: linear-gradient(90deg, #0674e7 0%, #139bf7 100%); */
 }
 
 .content-nav {
@@ -16,15 +17,17 @@
 	padding: 7px 0 2px 0;
 }
 
-a {
+.navevent a {
 	text-decoration: none;
-	color: white;
+	color: #0674e7;
 	font-size: 18px;
 	font-weight: 400;
 	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
 }
-a:hover {
-	color: #ffffff;
+.navevent a:hover {
+	color: #0563c7;
+	font-weight: 700;
 }
 .content-nav ul li {
 	list-style: none;
@@ -50,14 +53,11 @@ a:hover {
 	padding: 5px;
 }
 
-.navevent a {
-	font-size: 22px;
-}
-
 a.current {
 	padding-bottom: 4px;
-	border-bottom: 2px solid #ffffff;
-	color: #ffffff;
+	border-bottom: 2px solid #0563c7;
+	color: #0563c7;
+	font-weight: 700;
 }
 
 @media (max-width: 700px) {
