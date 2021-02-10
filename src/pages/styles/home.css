@@ -1,29 +1,9 @@
-#videoRgb {
-	width: 100%;
-	object-fit: cover;
-	height: 514px;
-}
-.header_home {
-	position: relative;
-}
 .content_home {
 	width: 100%;
 }
 
 .cover-img {
 	width: 100%;
-}
-
-.element-home {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 3;
-	color: white;
-	font-size: 53px;
-	text-align: center;
-	font-family: 'Quicksand', sans-serif;
 }
 
 .overlay {
@@ -34,6 +14,140 @@
 	top: 0;
 	z-index: 2;
 }
+
+.content_swiper_slider {
+	margin: auto;
+	width: 100%;
+}
+
+.content-gallery {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	height: 500px;
+	align-items: center;
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	justify-content: space-between;
+}
+
+.gallery_info {
+}
+
+.cover_back {
+	background: url('../../images/cover-background.jpg') center center;
+	background-size: cover;
+}
+
+.line_graph {
+	background: black;
+	margin: 10px 0;
+	width: 150px;
+	height: 3px;
+}
+
+.gallery_title {
+	font-size: 50px;
+	color: #0674e7;
+	font-weight: 700;
+}
+
+.button_link button {
+	background: #0674e7;
+	border: 0;
+	font-size: 38px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+/* styles information */
+
+.home_information {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding-bottom: 65px;
+	padding-top: 49px;
+}
+.home_information-content {
+	display: flex;
+	justify-content: space-around;
+}
+
+.info_box {
+	width: 100%;
+	max-width: 280px;
+	font-family: 'Roboto', sans-serif;
+	transition: 3s;
+}
+
+.img_back_home {
+	height: 280px;
+	background: blue;
+	display: flex;
+	padding: 15px;
+	transition: 3s;
+}
+
+.img_back_home img {
+	padding: 45px;
+	transition: 2s;
+}
+
+.img_back_home.one {
+	background: url('../../images/project1.jpg') center center;
+	background-size: cover;
+	transition: 2s;
+}
+.img_back_home.two {
+	background: url('../../images/project2.jpg') center center;
+	background-size: cover;
+}
+.img_back_home.three {
+	background: url('../../images/project3.jpg') center center;
+	background-size: cover;
+}
+.img_back_home.four {
+	background: url('../../images/project4.jpg') center center;
+	background-size: cover;
+}
+
+.info_content {
+	text-align: center;
+}
+.info_content p {
+	font-size: 18px;
+	font-weight: 700;
+	color: #0674e7;
+	padding-bottom: 15px;
+	padding-top: 11px;
+}
+
+.img_hover {
+	background: #0674e7c4;
+	transition: 2s;
+}
+
+.img_back_home:hover {
+	flex-direction: column-reverse;
+}
+
+.img_back_home:hover .img_hover {
+	width: 100%;
+	height: 45px;
+	background: #0674e7c4;
+	justify-content: center;
+	text-align: center;
+}
+.img_back_home:hover img {
+	width: 43px;
+	padding: 0;
+	background-color: none;
+}
+
+/* styles information */
 
 @media only screen and (max-width: 1400px) {
 	.logo-lettering {

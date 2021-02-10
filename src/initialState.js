@@ -3,7 +3,7 @@ export default {
   services: [
     {
       'id':1,
-      'name':'Venta de Saunas Unipersonales',
+      'name':'Fabricación y venta de saunas unipersonales',
       'price':'',
       'breve': 'Somos fabricantes de saunas unipersonales hecho en Perú',
       'buttontype':'Comprar',
@@ -21,7 +21,7 @@ export default {
     },
     {
       'id':3,
-      'name':'Mantenimiento del sistemas eléctrico',
+      'name':'Mantenimiento del sistema eléctrico de saunas unipersonales',
       'price':'',
       'breve': 'Realizamos mantenimiento de sistemas eléctricos como...',
       'buttontype':'solicitar',
@@ -30,9 +30,9 @@ export default {
     },
     {
       'id':4,
-      'name':'Elaboración de tanques reservorios',
+      'name':'Fabricación de todo tipo de Piezas',
       'price':'',
-      'breve': 'Elaboramos tanques reservarios para empresas',
+      'breve': 'Fabricación de todo tipo de piezas, matrices o prototipos en fibra de vidrio',
       'buttontype':'solicitar',
       'tipo':'servicios',
       'mensaje':'Hola%20buenas%20tardes%20deseo%20adquirir%20el%20servicio%20de%20Elaboraci%C3%B3n%20de%20tanques%20reservorios%2C%20cual%20es%20el%20prodecimiento...'

@@ -12,6 +12,9 @@ import coverservice3 from '../images/coverservice3.png'
 import coverservice4 from '../images/coverservice4.png'
 import coverservice5 from '../images/coverservice5.png'
 import coverservice6 from '../images/coverservice6.png'
+import coverservice7 from '../images/coverservice7.png'
+import coverservice8 from '../images/coverservice8.png'
+import coverservice9 from '../images/coverservice9.png'
 import coverservice10 from '../images/coverservice10.png'
 import coverservice11 from '../images/coverservice11.png'
 import coverservice12 from '../images/coverservice12.png'
@@ -117,13 +120,13 @@ function Services () {
                     </div>
                     <div className="wrapper_two">
                       <div className="wrapper_img">
-                        <img className="" src={coverservice} alt=""/>
+                        <img className="" src={coverservice7} alt=""/>
                       </div>
                       <div className="wrapper_img">
-                        <img className="" src={coverservice2} alt=""/>
+                        <img className="" src={coverservice8} alt=""/>
                       </div>
                       <div className="wrapper_img">
-                        <img className="" src={coverservice3} alt=""/>
+                        <img className="" src={coverservice9} alt=""/>
                       </div>
                     </div>
                    </div>
