@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './styles/testimonials.css'
@@ -38,11 +39,11 @@ const Gallery = () => {
             </p>
             <div className="line_graph"></div>
             <div className="button_link">
-              <a href>
+              <Link to="/fabricación-y-venta">
                 <button type="button">
-                  comprar
+                ver más
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="gallery_img">
@@ -55,15 +56,15 @@ const Gallery = () => {
       <div className="content-gallery">
           <div className="gallery_info">
             <p className="gallery_title">
-              Mantenimiento y reparaciones
+            Reparaciones y mantenimiento 
             </p>
             <div className="line_graph"></div>
             <div className="button_link">
-              <a href>
+              <Link to="/reparaciones-y-mantenimiento">
                 <button type="button">
-                  comprar
+                ver más
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="gallery_img">
@@ -80,11 +81,11 @@ const Gallery = () => {
             </p>
             <div className="line_graph"></div>
             <div className="button_link">
-              <a href>
+              <Link to="/fabricación-piezas">
                 <button type="button">
-                  comprar
+                  ver más
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="gallery_img">

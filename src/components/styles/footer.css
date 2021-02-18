@@ -5,6 +5,9 @@
 	font-size: 14px;
 	color: #ffffff;
 }
+.content_footer a {
+	color: #ffffff;
+}
 
 .content-layout {
 	max-width: 1200px;
@@ -54,31 +57,25 @@
 .footer-about {
 	max-width: 300px;
 }
-
-@media only screen and (min-width: 576px) {
-	.derechos.mobile {
-		display: none;
-	}
-}
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
 	.content_info {
-		display: initial;
+		display: flex;
+		flex-direction: column;
 		text-align: center;
 	}
+	.footer-about {
+		max-width: 80%;
+		margin: auto;
+	}
+	.explorer,
 	.info,
-	.redes,
-	.explorer {
-		padding-bottom: 12px;
+	.redes {
+		padding-bottom: 10px;
+		color: white;
 	}
-	.content_info .title-info {
-		font-weight: 600;
-		padding-bottom: 4px;
-	}
-	.derechos.desktop {
-		display: none;
-	}
+}
 
-	.diseño {
-		padding-top: 10px;
-	}
+@media only screen and (min-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
 }

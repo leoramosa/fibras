@@ -23,7 +23,7 @@ import coverservice12 from '../images/coverservice12.png'
 function Services () {
   const {state} =useContext(AppContext)
   const { services } = state;
-  console.log(services)
+
   
   return (
     <>
@@ -48,7 +48,7 @@ function Services () {
                           </button> 
                         </div>
                         <div className="content-bt">
-                          <Link className="detail-ver" to="/one" >ver más</Link>
+                          <Link className="detail-ver" to= {services[0].linkbtn} >ver más</Link>
                         </div>
                     </div>
                     </div>
@@ -81,7 +81,7 @@ function Services () {
                           </button> 
                         </div>
                         <div className="content-bt">
-                          <Link className="detail-ver" to="/one" >ver más</Link>
+                          <Link className="detail-ver" to={services[1].linkbtn} >ver más</Link>
                         </div>
                     </div>
                     </div>
@@ -114,7 +114,7 @@ function Services () {
                           </button> 
                         </div>
                         <div className="content-bt">
-                          <Link className="detail-ver" to="/one" >ver más</Link>
+                          <Link className="detail-ver" to={services[2].linkbtn} >ver más</Link>
                         </div>
                     </div>
                     </div>
@@ -147,7 +147,7 @@ function Services () {
                           </button> 
                         </div>
                         <div className="content-bt">
-                          <Link className="detail-ver" to="/one" >ver más</Link>
+                          <Link className="detail-ver" to={services[3].linkbtn} >ver más</Link>
                         </div>
                     </div>
                     </div>

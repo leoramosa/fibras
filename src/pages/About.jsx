@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './styles/about.css'
-import aboutImg from '../images/about.jpg'
+
 import mision from '../images/mision.jpg'
 import vision from '../images/vision.jpg'
 
@@ -8,11 +9,27 @@ import vision from '../images/vision.jpg'
   return (
     <>
       <div className="content_about">
-        <div className="content_about-global desktop">
-          <div className="content_detail-about">
-           <div className="about-img">
-             <img src={aboutImg} alt=""/>
-           </div>
+        
+          
+          <div className="about-header">
+          <div className="about_overlay">
+          <div className="about_container">
+              <p className="about_title">Nuestra <strong>Historia</strong></p>
+              <p className="about_info">Nuestra experiencia en los servicios de fibra de Vidrio </p>
+              <br/>
+              <div className="link_contact">
+              <Link to="/contacto" className="" >
+                <button className="contact_link" type="button">
+                Contáctanos
+                </button>
+              </Link>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+
+        <div className="about_information_web">
            <div className="content_info-about">
              <p>
             Fibras Lozano E.I.R.L. Somos una empresa familiar con más de 25 años de experiencia, comprometidos con el desarrollo y crecimiento de nuestros clientes, con la firme proyección de dar soluciones en productos de fibra de vidrio (PRFV), a particulares, medianas y grandes empresas. El objetivo principal es proyectar diseños y fabricar productos que cumplan fielmente con las necesidades y expectativas de nuestros clientes.
@@ -39,7 +56,7 @@ import vision from '../images/vision.jpg'
              </div>
            </div>
           </div>
-        </div>
+        
       </div>
     </>
   )

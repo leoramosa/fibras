@@ -60,6 +60,15 @@ a.current {
 	font-weight: 700;
 }
 
+@media (max-width: 900px) {
+	.content-nav ul li {
+		padding: 0px 28px;
+	}
+	.logo a img {
+		width: 150px;
+		padding-left: 10px;
+	}
+}
 @media (max-width: 700px) {
 	header {
 		justify-content: space-between;
@@ -70,7 +79,7 @@ a.current {
 		left: -100%;
 		width: 100%;
 		height: 100vh;
-		background: #987acd;
+		background: white;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
@@ -92,7 +101,7 @@ a.current {
 
 	a.current {
 		padding-bottom: 4px;
-		border-bottom: 1px solid #573871;
-		color: white;
+		border-bottom: 1px solid #0674e7;
+		color: #0674e7;
 	}
 }

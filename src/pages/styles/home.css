@@ -31,9 +31,6 @@
 	justify-content: space-between;
 }
 
-.gallery_info {
-}
-
 .cover_back {
 	background: url('../../images/cover-background.jpg') center center;
 	background-size: cover;
@@ -62,6 +59,15 @@
 	cursor: pointer;
 }
 
+.title_first {
+	text-align: center;
+	font-size: 33px;
+	padding-bottom: 23px;
+	padding-top: 15px;
+	color: #777777;
+	font-family: 'Roboto', sans-serif;
+}
+
 /* styles information */
 
 .home_information {
@@ -78,39 +84,56 @@
 
 .info_box {
 	width: 100%;
-	max-width: 280px;
+	max-width: 250px;
 	font-family: 'Roboto', sans-serif;
 	transition: 3s;
 }
 
+.back-content-img {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background: #0674e7c4;
+	justify-content: center;
+	align-items: center;
+	transition: 2s;
+}
+.img-content-home img {
+	width: 85px;
+	transition: 2s;
+}
+.img_back_home:hover .back-content-img {
+	height: 50px;
+}
+
+.img_back_home:hover img {
+	width: 50px;
+}
+
 .img_back_home {
-	height: 280px;
+	height: 250px;
 	background: blue;
 	display: flex;
 	padding: 15px;
-	transition: 3s;
-}
 
-.img_back_home img {
-	padding: 45px;
-	transition: 2s;
+	flex-direction: column-reverse;
 }
 
 .img_back_home.one {
-	background: url('../../images/project1.jpg') center center;
+	background: url('../../images/homeser1.jpg') center center;
 	background-size: cover;
 	transition: 2s;
 }
 .img_back_home.two {
-	background: url('../../images/project2.jpg') center center;
+	background: url('../../images/homeser2.jpg') center center;
 	background-size: cover;
 }
 .img_back_home.three {
-	background: url('../../images/project3.jpg') center center;
+	background: url('../../images/homeser3.jpg') center center;
 	background-size: cover;
 }
 .img_back_home.four {
-	background: url('../../images/project4.jpg') center center;
+	background: url('../../images/homeser4.jpg') center center;
 	background-size: cover;
 }
 
@@ -125,94 +148,90 @@
 	padding-top: 11px;
 }
 
-.img_hover {
-	background: #0674e7c4;
-	transition: 2s;
-}
-
-.img_back_home:hover {
-	flex-direction: column-reverse;
-}
-
-.img_back_home:hover .img_hover {
-	width: 100%;
-	height: 45px;
-	background: #0674e7c4;
-	justify-content: center;
-	text-align: center;
-}
-.img_back_home:hover img {
-	width: 43px;
-	padding: 0;
-	background-color: none;
-}
-
 /* styles information */
 
-@media only screen and (max-width: 1400px) {
-	.logo-lettering {
-		top: 20%;
+@media only screen and (max-width: 1200px) {
+	.gallery_info {
+		padding-left: 40px;
 	}
-	.logo-psd {
-		max-width: 405px;
+	.gallery_img img {
+		width: 400px;
 	}
-}
-@media only screen and (max-width: 960px) {
-	.logo-psd {
-		max-width: 356px;
+	.home_information-content {
+		flex-wrap: wrap;
 	}
 }
+
 @media only screen and (max-width: 768px) {
-	.logo-psd {
-		max-width: 310px;
+	.gallery_title {
+		font-size: 35px;
 	}
-	.logo-lettering {
-		position: absolute;
-		top: 33%;
-		left: 35%;
+	.gallery_img img {
+		width: 300px;
 	}
-	.read-me a {
-		margin-right: 20%;
+	.content-gallery {
+		height: 350px;
 	}
-
-	.details_info-test p {
-		font-size: 14px;
+	.info_content {
+		padding-bottom: 10px;
 	}
-}
-@media only screen and (min-width: 576px) {
-	.content_home-global.mobile {
-		display: none;
+	.home_information {
+		padding-bottom: 45px;
 	}
 }
-
 @media only screen and (max-width: 576px) {
-	.content_home-global.desktop {
-		display: none;
+	.gallery_title {
+		font-size: 35px;
+		text-shadow: 4px 1px 0px white;
+		text-align: center;
+		padding: 0 15px;
 	}
-
-	.content_home-global {
-		height: auto;
+	.gallery_info {
+		padding: 0 40px;
+		padding-bottom: 25px;
 	}
-
-	.content_img {
-		background-color: none;
-		width: inherit;
-		padding: 0;
-		height: auto;
-		position: relative;
-		background: none;
-		background-size: cover;
-	}
-	.content_img img {
+	.gallery_img img {
 		width: 100%;
+		padding: 5px 15px;
 	}
-	.content_home {
-		position: relative;
+	.content-gallery {
+		flex-direction: column-reverse;
+		justify-content: center;
+		height: initial;
 	}
-	.logo-lettering {
-		position: absolute;
-		top: 33%;
-		left: 46%;
-		right: 7%;
+	.button_link button {
+		font-size: 25px;
+	}
+	.info_box {
+		max-width: 200px;
+	}
+	.img_back_home {
+		height: 200px;
+	}
+	.info_content p {
+		font-size: 16px;
+		padding-bottom: 10px;
+	}
+	.title_first {
+		font-size: 25px;
+	}
+	.info_content {
+		padding-bottom: 25px;
+	}
+	.home_information {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.gallery_title {
+		font-size: 25px;
+	}
+	.info_box {
+		max-width: 160px;
+	}
+	.img_back_home {
+		height: 160px;
 	}
 }

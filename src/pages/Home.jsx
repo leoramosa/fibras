@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './styles/home.css'
 import Gallery from '../components/Gallery'
 import icon1 from '../images/icon-1.png'
@@ -19,57 +20,68 @@ import icon4 from '../images/icon-4.png'
           <p className="title_first">Servicios destacados</p>
           <div className="home_information-content">
             <div className="info_box">
+
               <div className="img_back_home one">
-                <div className="img_hover">
-                  <img src={icon1} alt=""/>
+                <div className="back-content-img">
+                  <div className="img-content-home">
+                    <img src={icon1} alt=""/>
+                  </div>
                 </div>
+                
               </div>
+
               <div className="info_content">
                 <p> Fabricación y venta de saunas Unipersonales</p>
                 <div className="">
-                  <a href>ver mas</a>
+                <Link to="/fabricación-y-venta">ver mas</Link>
                 </div>
               </div>
             </div>
             <div className="info_box">
-              <div className="img_back_home two">
-                <div className="img_hover">
-
-              <img src={icon2} alt=""/>
+            <div className="img_back_home two">
+                <div className="back-content-img">
+                  <div className="img-content-home">
+                    <img src={icon2} alt=""/>
+                  </div>
                 </div>
+                
               </div>
               <div className="info_content">
                 <p>Mantenimiento y reparaciones</p>
                 <div className="">
-                  <a href>ver mas</a>
+                <Link to="/reparaciones-y-mantenimiento">ver mas</Link>
                 </div>
               </div>
             </div>
             <div className="info_box">
-              <div className="img_back_home three">
-                <div className="img_hover">
-
-              <img src={icon3} alt=""/>
+            <div className="img_back_home three">
+                <div className="back-content-img">
+                  <div className="img-content-home">
+                    <img src={icon3} alt=""/>
+                  </div>
                 </div>
+                
               </div>
               <div className="info_content">
                 <p>Mantenimiento de sistema eléctrico de saunas unipersonales</p>
                 <div className="">
-                  <a href>ver mas</a>
+                  <Link to="/mantenimiento-saunas">ver mas</Link>
                 </div>
               </div>
             </div>
             <div className="info_box">
-              <div className="img_back_home four">
-                <div className="img_hover">
-
-              <img src={icon4} alt=""/>
+            <div className="img_back_home four">
+                <div className="back-content-img">
+                  <div className="img-content-home">
+                    <img src={icon4} alt=""/>
+                  </div>
                 </div>
+                
               </div>
               <div className="info_content">
                 <p>Fabricación de Todo tipo de Piezas</p>
                 <div className="">
-                  <a href>ver mas</a>
+                <Link to="/fabricación-piezas">ver mas</Link>
                 </div>
               </div>
             </div>

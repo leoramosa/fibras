@@ -22,12 +22,12 @@ import './styles/footer.css'
            <p className="title-info">Contacto</p>
            <div className="">
             <p>Teléfono: +51 944408025</p>
-            <p>Email: emerson.loza.reate.37@gmail.com</p>
-            <p>Direción: Lima - Perú</p>
+            <p>Email: fibras.lozano.eirl@gmail.com</p>
+            <p>Direción: Calle Ostigon MZ. 50 Lt.21 -  Previ | callao</p>
            </div>
          </div>
          <div className="redes">
-            <p className="title-info">Sígueme:</p>
+            <p className="title-info">Síguenos:</p>
             <div className="icon-redes">
               <a href="https://www.facebook.com/Fibras-Lozano-EIRL-110516780696841" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square"></i></a>
               <a href="https://www.facebook.com/Fibras-Lozano-EIRL-110516780696841" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
@@ -37,7 +37,7 @@ import './styles/footer.css'
          
        </div>
        <div className="derechos desktop">
-         <p>© Copyright Fibras Lozano 2020 -Todos los derechos reservados</p>
+         <p>© Copyright Fibras Lozano 20201 -Todos los derechos reservados</p>
          <p className="diseño">Diseñado y desarrollado por <a className="dweb" href="https://leoramos.netlify.app/" target="_blank" rel="noreferrer"> Leonardo Ramos</a></p>
        </div>
        </div>
