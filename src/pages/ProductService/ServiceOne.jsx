@@ -1,14 +1,13 @@
 import React, { useContext }from 'react'
 import  AppContext   from '../../context/AppContext';
 import './styles/styleSerOne.css'
-import { SRLWrapper } from 'simple-react-lightbox';
-import ser1 from '../../images/ser1.jpg'
 
+import ser1 from '../../images/ser1.jpg'
+import Tabs from './Tabs'
 
 const ServiceOne = () => {
   const {state} = useContext(AppContext)
   const { services } = state;
-
 
   return (
     <>
@@ -47,23 +46,13 @@ const ServiceOne = () => {
         </div>
 
         <div className="service_gallery">
-          <p className="title_gallery">Gelería</p>
+          <p className="title_gallery">Galería</p>
           <div className="service_gallery-content">
-          <SRLWrapper className="wrapperImg">
-          {services[0].imagen.map((service, i) => (
-              <div key={i} className="img-small">
-                <div className="overlay_service_one">
-                <i class="fas fa-search"></i>
-                </div>
-                <img src={service.img} alt=""/>
-              </div>
-              ))}
-           </SRLWrapper>
+            <Tabs/>
           </div>
         </div>
 
 
-        
     </div>
     </>
   )

@@ -14,6 +14,12 @@ import ModalSeven from '../../components/ModalSeven'
 import ModalEight from '../../components/ModalEight'
 import ModalNine from '../../components/ModalNine'
 import ModalTen from '../../components/ModalTen'
+import ModalEleven from '../../components/ModalEleven';
+import ModalTwelve from '../../components/ModalTwelve';
+import ModalThirteen from '../../components/ModalThirteen';
+import ModalFourteen from '../../components/ModalFourteen';
+import ModalFifteen from '../../components/ModalFifteen';
+import ModalSixteen from '../../components/ModalSixteen';
 
 
 const ServiceOne = () => {
@@ -31,6 +37,13 @@ const ServiceOne = () => {
   const [showModaleight, setShowModaleight] = useState(false);
   const [showModalnine, setShowModalnine]= useState(false);
   const [showModalten, setShowModalten] = useState(false);
+
+  const [showModaleleven, setShowModaleleven] = useState(false);
+  const [showModaltwelve, setShowModaltwelve] = useState(false);
+  const [showModalthirteen, setShowModalthirteen] = useState(false);
+  const [showModalfourteen, setShowModalfourteen] = useState(false);
+  const [showModalfifteen, setShowModalfifteen] = useState(false);
+  const [showModalsixteen, setShowModalsixteen] = useState(false);
 
   const OpenModal = () => {
     setShowModal(true);
@@ -61,6 +74,24 @@ const ServiceOne = () => {
   };
   const OpenModalten = () => {
     setShowModalten(true);
+  };
+  const OpenModaleleven = () => {
+    setShowModaleleven(true);
+  };
+  const OpenModaltwelve = () => {
+    setShowModaltwelve(true);
+  };
+  const OpenModalthirteen = () => {
+    setShowModalthirteen(true);
+  };
+  const OpenModalfourteen = () => {
+    setShowModalfourteen(true);
+  };
+  const OpenModalfifteen = () => {
+    setShowModalfifteen(true);
+  };
+  const OpenModalsixteen = () => {
+    setShowModalsixteen(true);
   };
 
 
@@ -95,6 +126,24 @@ const ServiceOne = () => {
   };
   const CloseModalten = () => {
     setShowModalten(false);
+  };
+  const CloseModaleleven = () => {
+    setShowModaleleven(false);
+  };
+  const CloseModaltwelve = () => {
+    setShowModaltwelve(false);
+  };
+  const CloseModalthirteen = () => {
+    setShowModalthirteen(false);
+  };
+  const CloseModalfourteen = () => {
+    setShowModalfourteen(false);
+  };
+  const CloseModalfifteen = () => {
+    setShowModalfifteen(false);
+  };
+  const CloseModalsixteen = () => {
+    setShowModalsixteen(false);
   };
 
 
@@ -277,6 +326,95 @@ const ServiceOne = () => {
               <p>{reparaciones[9].name}</p>
             </button>
 
+            <button 
+            type="button" 
+            className="box_title-container"
+            onClick={OpenModaleleven}
+            key={reparaciones[10].id}
+            >
+              <p>
+               <i className="fas fa-map-marker-alt"></i> {reparaciones[10].district}
+              <br/>
+              {reparaciones[10].place}
+              </p>
+              <p>{reparaciones[10].name}</p>
+            </button>
+
+
+            <button 
+            type="button" 
+            className="box_title-container"
+            onClick={OpenModaltwelve}
+            key={reparaciones[11].id}
+            >
+              <p>
+               <i className="fas fa-map-marker-alt"></i> {reparaciones[11].district}
+              <br/>
+              {reparaciones[11].place}
+              </p>
+              <p>{reparaciones[11].name}</p>
+            </button>
+
+
+            <button 
+            type="button" 
+            className="box_title-container"
+            onClick={OpenModalthirteen}
+            key={reparaciones[12].id}
+            >
+              <p>
+               <i className="fas fa-map-marker-alt"></i> {reparaciones[12].district}
+              <br/>
+              {reparaciones[12].place}
+              </p>
+              <p>{reparaciones[12].name}</p>
+            </button>
+
+
+            <button 
+            type="button" 
+            className="box_title-container"
+            onClick={OpenModalfourteen}
+            key={reparaciones[13].id}
+            >
+              <p>
+               <i className="fas fa-map-marker-alt"></i> {reparaciones[13].district}
+              <br/>
+              {reparaciones[13].place}
+              </p>
+              <p>{reparaciones[13].name}</p>
+            </button>
+
+
+            <button 
+            type="button" 
+            className="box_title-container"
+            onClick={OpenModalfifteen}
+            key={reparaciones[14].id}
+            >
+              <p>
+               <i className="fas fa-map-marker-alt"></i> {reparaciones[14].district}
+              <br/>
+              {reparaciones[14].place}
+              </p>
+              <p>{reparaciones[14].name}</p>
+            </button>
+
+
+            <button 
+            type="button" 
+            className="box_title-container"
+            onClick={OpenModalsixteen}
+            key={reparaciones[15].id}
+            >
+              <p>
+               <i className="fas fa-map-marker-alt"></i> {reparaciones[15].district}
+              <br/>
+              {reparaciones[15].place}
+              </p>
+              <p>{reparaciones[15].name}</p>
+            </button>
+
            
             
            
@@ -297,6 +435,12 @@ const ServiceOne = () => {
         <ModalEight CloseModaleight={CloseModaleight} showModaleight={showModaleight}/>
         <ModalNine CloseModalnine={CloseModalnine} showModalnine={showModalnine}/>
         <ModalTen CloseModalten={CloseModalten} showModalten={showModalten}/>
+        <ModalEleven CloseModaleleven={CloseModaleleven} showModaleleven={showModaleleven}/>
+        <ModalTwelve CloseModaltwelve={CloseModaltwelve} showModaltwelve={showModaltwelve}/>
+        <ModalThirteen CloseModalthirteen={CloseModalthirteen} showModalthirteen={showModalthirteen}/>
+        <ModalFourteen CloseModalfourteen={CloseModalfourteen} showModalfourteen={showModalfourteen}/>
+        <ModalFifteen CloseModalfifteen={CloseModalfifteen} showModalfifteen={showModalfifteen}/>
+        <ModalSixteen CloseModalsixteen={CloseModalsixteen} showModalsixteen={showModalsixteen}/>
           
     </div>
     </>

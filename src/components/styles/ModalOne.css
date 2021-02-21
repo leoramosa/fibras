@@ -83,6 +83,11 @@
 	flex-wrap: wrap;
 }
 
+.videoPlayer {
+	width: 100%;
+	height: 480px;
+}
+
 @media only screen and (max-width: 1440px) {
 	.Modal__container {
 		max-width: 800px;
@@ -112,6 +117,10 @@
 		margin: 0;
 		overflow-y: scroll;
 		top: 2rem;
+	}
+	.videoPlayer {
+		width: 100%;
+		height: 350px;
 	}
 }
 

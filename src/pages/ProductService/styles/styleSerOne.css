@@ -54,6 +54,10 @@
 	position: relative;
 	cursor: pointer;
 }
+.img-small.video {
+	display: inline-block;
+}
+
 .img-small:hover .overlay_service_one {
 	display: none;
 }
@@ -66,6 +70,18 @@
 }
 
 .overlay_service_one {
+	position: absolute;
+	background-color: #ffffffb2;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-weight: 700;
+	color: #0674e7;
+}
+.overlay_service_two {
 	position: absolute;
 	background-color: #ffffffb2;
 	width: 100%;
@@ -94,11 +110,6 @@
 }
 .service_gallery-content {
 	padding: 20px 0;
-}
-.service_gallery-content div {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
 }
 
 /* content-parrafo-styles */
@@ -328,6 +339,9 @@
 		height: 130px;
 		margin: 5px;
 		font-size: 16px;
+	}
+	.service_gallery-content {
+		padding-top: 0;
 	}
 }
 

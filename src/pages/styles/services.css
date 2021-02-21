@@ -23,15 +23,6 @@
 	display: flex;
 }
 
-.content {
-	display: flex;
-	margin: auto;
-	max-width: 1200px;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
-}
-
 .wrapper_all {
 	width: 45%;
 	display: flex;

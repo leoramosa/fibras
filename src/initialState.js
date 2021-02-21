@@ -485,6 +485,217 @@ export default {
         },
 
       ],
+      'imageneleven':[
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/11/1.jpg"
+        },
+        {
+          'id':2,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/11/2.jpg"
+        },
+        {
+          'id':3,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/11/3.jpg"
+        },
+        {
+          'id':4,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/11/4.jpg"
+        },
+        {
+          'id':5,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/11/5.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/11/6.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/11/7.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/11/8.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/11/9.jpg"
+        },
+
+
+      ],
+      'imagentwelve':[
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/12/1.jpg"
+        },
+        {
+          'id':2,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/12/2.jpg"
+        },
+        {
+          'id':3,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/12/3.jpg"
+        },
+        {
+          'id':4,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/12/4.jpg"
+        },
+        {
+          'id':5,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/12/5.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/12/6.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/12/7.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/12/8.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/12/9.jpg"
+        },
+
+
+      ],
+      'imagenthirteen':[
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/13/1.jpg"
+        },
+        {
+          'id':2,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/13/2.jpg"
+        },
+        {
+          'id':3,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/13/3.jpg"
+        },
+        {
+          'id':4,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/13/4.jpg"
+        },
+        {
+          'id':5,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/13/5.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/13/6.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/13/7.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/13/8.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/13/9.jpg"
+        },
+
+      ],
+      'imagenfourteen':[
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/14/1.jpg"
+        },
+        {
+          'id':2,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/14/2.jpg"
+        },
+        {
+          'id':3,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/14/3.jpg"
+        },
+        {
+          'id':4,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/14/4.jpg"
+        },
+        {
+          'id':5,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/14/5.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/14/6.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/14/7.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/14/8.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/14/9.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/14/10.jpg"
+        },
+
+      ],
+      'imagenfifteen':[
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/15/1.jpg"
+        },
+        {
+          'id':2,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/15/2.jpg"
+        },
+        {
+          'id':3,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/15/3.jpg"
+        },
+        {
+          'id':4,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/15/4.jpg"
+        },
+        {
+          'id':5,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/15/5.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/15/6.jpg"
+        },
+        {
+          'id':6,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/15/7.jpg"
+        },
+
+      ],
+      'imagensixteen':[
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/16/1.jpg"
+        },
+        {
+          'id':2,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/16/2.jpg"
+        },
+        {
+          'id':3,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/16/3.jpg"
+        },
+        {
+          'id':4,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/two/16/4.jpg"
+        }
+      ],
     },
     {
       'id':3,
@@ -639,6 +850,46 @@ export default {
           'id':1,
           "img":"https://apiweb.netlify.app/images/fibras/servicios/4/20.jpg"
         },
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/4/21.jpg"
+        },
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/4/22.jpg"
+        },
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/4/23.jpg"
+        },
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/4/24.jpg"
+        },
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/4/25.jpg"
+        },
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/4/26.jpg"
+        },
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/4/27.jpg"
+        },
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/4/28.jpg"
+        },
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/4/29.jpg"
+        },
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/4/30.jpg"
+        },
       ]
     },
   ],
@@ -722,6 +973,54 @@ export default {
         "district":"San Isidro",
         "modal" :"",
         "number":""
+    },
+    {
+        "id":11,
+        "name":"Reparacion de tina, desinstalacion e instalación",
+        "place":"",
+        "district":"Callao",
+        "modal" :"",
+        "number":""
+    },
+    {
+        "id":12,
+        "name":"Reparación de tina",
+        "place":"",
+        "district":"San Isidro",
+        "modal" :"",
+        "number":""
+    },
+    {
+        "id":113,
+        "name":"Reparación de tina",
+        "place":"",
+        "district":"San Isidro",
+        "modal" :"",
+        "number":""
+    },
+    {
+      "id":14,
+      "name":"Reparación de jacuzzi",
+      "place":"Laguna Grnde",
+      "district":"La Molina",
+      "modal" :"",
+      "number":""
+    },
+    {
+      "id":15,
+      "name":"Reparación de piscina",
+      "place":"",
+      "district":"San Isidro",
+      "modal" :"",
+      "number":""
+    },
+    {
+      "id":16,
+      "name":"Desinstalación e Instalación de tina de baño",
+      "place":"",
+      "district":"Cercado de Lima",
+      "modal" :"",
+      "number":""
     },
 ]
 };

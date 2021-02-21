@@ -21,9 +21,10 @@ import './styles/footer.css'
          <div className="info">
            <p className="title-info">Contacto</p>
            <div className="">
-            <p>Teléfono: +51 944408025</p>
-            <p>Email: fibras.lozano.eirl@gmail.com</p>
-            <p>Direción: Calle Ostigon MZ. 50 Lt.21 -  Previ | callao</p>
+            <p><i className="fas fa-home"></i> (01) 682 7932</p>
+            <p><i className="fab fa-whatsapp"></i> +51 944 408 025</p>
+            <p><i className="far fa-envelope"></i> fibras.lozano.eirl@gmail.com</p>
+            <p><i className="fas fa-map-marker-alt"></i> Calle Ostigon MZ. 50 Lt.21 - Casa Previ | Callao</p>
            </div>
          </div>
          <div className="redes">

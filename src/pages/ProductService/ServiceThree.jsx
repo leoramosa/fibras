@@ -28,7 +28,7 @@ const ServiceOne = () => {
         <div className="service_detail_content">
           <div className="service_detail">
               <ul>
-                <li>Somos expertos fabricando saunas unipersonales con la mejor tecnología. </li>
+                <li>Somos expertos fabricando saunas unipersonales reforzados y con el sistema eléctrico adecuado. </li>
               </ul>
               <div className="service_detail_button">
               <div className="detail_request">
@@ -45,17 +45,19 @@ const ServiceOne = () => {
         </div>
 
         <div className="service_gallery">
-          <p className="title_gallery">Gelería</p>
+          <p className="title_gallery">Galería</p>
           <div className="service_gallery-content">
-          <SRLWrapper className="wrapperImg">
+          <SRLWrapper className="">
+            <div className="wrapperImg">
           {services[2].imagen.map((service, i) => (
               <div key={i} className="img-small">
                 <div className="overlay_service_one">
-                <i class="fas fa-search"></i>
+                <i className="fas fa-search"></i>
                 </div>
                 <img src={service.img} alt=""/>
               </div>
               ))}
+              </div>
            </SRLWrapper>
           </div>
         </div>
