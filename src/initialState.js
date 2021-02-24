@@ -3,9 +3,9 @@ export default {
   services: [
     {
       'id':1,
-      'name':'Fabricación y venta de saunas unipersonales',
+      'name':' Fabricación y venta de Sauna Medicinal Unipersonal',
       'price':'',
-      'breve': 'Somos fabricantes de saunas unipersonales hecho en Perú',
+      'breve': 'Somos fabricantes de saunas medicinal unipersonal, hecho en Perú',
       'buttontype':'Comprar',
       'tipo':'producto',
       'linkbtn':"fabricación-y-venta",
@@ -95,9 +95,9 @@ export default {
     },
     {
       'id':2,
-      'name':'Reparaciones y Mantenimiento',
+      'name':'Reparación y Mantenimiento de piezas en fibra de vidrio',
       'price':'',
-      'breve': 'Hacemos reparaciones y mantenimientos en fibra de vidrio a domicilio',
+      'breve': 'Hacemos reparaciones y mantenimientos en fibra de vidrio a domicilio.',
       'buttontype':'solicitar',
       'tipo':'servicios',
       'linkbtn':"reparaciones-y-mantenimiento",
@@ -701,7 +701,7 @@ export default {
       'id':3,
       'name':'Mantenimiento del sistema eléctrico de saunas unipersonales',
       'price':'',
-      'breve': 'Realizamos mantenimiento de sistemas eléctricos como...',
+      'breve': 'Realizamos mantenimiento del sistema eléctrico de saunas medicinal unipersonal.',
       'buttontype':'solicitar',
       'tipo':'servicios',
       'linkbtn':"mantenimiento-saunas",
@@ -762,9 +762,9 @@ export default {
     },
     {
       'id':4,
-      'name':'Fabricación de todo tipo de Piezas',
+      'name':'Fabricación de Piezas en fibra de vidrio de acuerdo a Molde',
       'price':'',
-      'breve': 'Fabricación de todo tipo de piezas, matrices o prototipos en fibra de vidrio',
+      'breve': 'Fabricación de todo tipo de piezas, matrices o prototipos en fibra de vidrio.',
       'buttontype':'solicitar',
       'tipo':'servicios',
       'linkbtn':"fabricación-piezas",
@@ -889,6 +889,18 @@ export default {
         {
           'id':1,
           "img":"https://apiweb.netlify.app/images/fibras/servicios/4/30.jpg"
+        },
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/4/31.jpg"
+        },
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/4/32.jpg"
+        },
+        {
+          'id':1,
+          "img":"https://apiweb.netlify.app/images/fibras/servicios/4/33.jpg"
         },
       ]
     },

@@ -35,7 +35,7 @@ const Gallery = () => {
         <div className="content-gallery">
           <div className="gallery_info">
             <p className="gallery_title">
-              Fabricación y venta de saunas Unipersonales
+            Fabricación y venta de Sauna Medicinal Unipersonal
             </p>
             <div className="line_graph"></div>
             <div className="button_link">
@@ -56,7 +56,7 @@ const Gallery = () => {
       <div className="content-gallery">
           <div className="gallery_info">
             <p className="gallery_title">
-            Reparaciones y mantenimiento 
+            Reparación y Mantenimiento de piezas en fibra de vidrio
             </p>
             <div className="line_graph"></div>
             <div className="button_link">
@@ -77,7 +77,7 @@ const Gallery = () => {
       <div className="content-gallery">
           <div className="gallery_info">
             <p className="gallery_title">
-            Fabricación de Todo tipo de Piezas
+            Fabricación de Piezas en fibra de vidrio de acuerdo a Molde
             </p>
             <div className="line_graph"></div>
             <div className="button_link">

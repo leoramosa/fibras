@@ -28,15 +28,32 @@ const ServiceOne = () => {
         <div className="service_detail_content">
           <div className="service_detail">
               <ul>
-                <li>Somos experto fabricando todo tipo de piezas, matrices o prototipos en fibra de vidrio </li>
+                <li>Somos expertos en la fabricación de todo tipo de matrices, prototipos y piezas en fibra de
+                  vidrio para su negocio, empresa o cualquier necesidad. </li>
               </ul>
               <div className="service_detail_button">
               <div className="detail_request">
                    <div>Consultas: </div> <div className="content-link-request"><a className="whatsapp" href={`https://api.whatsapp.com/send?phone=51944408025&text=${services[3].mensaje}`} rel="noopener noreferrer"><i className="fab fa-whatsapp"></i> whatsapp </a> <a className="btn_email" href="mailto:fibras.lozano.eirl@gmail.com"  rel="noreferrer" target="_blank"><i className="far fa-envelope"></i> correo</a></div> 
                 </div>
-              <div className="detail_requestTwo">
-                Llamanos : <a href="tel://+51944408025" className="btn_call"><i className="fas fa-phone-alt"></i> +51 944 408 025</a>
-              </div>
+                <div className="call">
+                  <div className="">Llamanos: </div> 
+                  <div className="call_content">
+                    <div className="">
+                        <a href="tel://+016827932" className="">
+                          <button type="button" className="btn_call">
+                            <i className="fas fa-phone-alt"></i>(01) 682 7932
+                          </button>
+                        </a>
+                    </div> 
+                    <div className="">
+                        <a href="tel://+51944408025" className="">
+                          <button type="button" className="btn_call">
+                          <i className="fas fa-phone-alt"></i> +51 944 408 025
+                          </button>
+                        </a>
+                    </div>
+                  </div> 
+                </div>
               </div>
           </div>
           <div className="service_detail-img">

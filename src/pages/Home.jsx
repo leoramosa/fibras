@@ -31,7 +31,7 @@ import icon4 from '../images/icon-4.png'
               </div>
 
               <div className="info_content">
-                <p> Fabricación y venta de saunas Unipersonales</p>
+                <p> Fabricación y venta de Sauna Medicinal Unipersonal</p>
                 <div className="">
                 <Link to="/fabricación-y-venta">ver mas</Link>
                 </div>
@@ -47,7 +47,7 @@ import icon4 from '../images/icon-4.png'
                 
               </div>
               <div className="info_content">
-                <p>Mantenimiento y reparaciones</p>
+                <p>Reparación y Mantenimiento de piezas en fibra de vidrio</p>
                 <div className="">
                 <Link to="/reparaciones-y-mantenimiento">ver mas</Link>
                 </div>
@@ -63,7 +63,7 @@ import icon4 from '../images/icon-4.png'
                 
               </div>
               <div className="info_content">
-                <p>Mantenimiento de sistema eléctrico de saunas unipersonales</p>
+                <p>Mantenimiento del sistema eléctrico de saunas medicinales unipersonales</p>
                 <div className="">
                   <Link to="/mantenimiento-saunas">ver mas</Link>
                 </div>
@@ -79,7 +79,7 @@ import icon4 from '../images/icon-4.png'
                 
               </div>
               <div className="info_content">
-                <p>Fabricación de Todo tipo de Piezas</p>
+                <p>Fabricación de Piezas en fibra de vidrio de acuerdo a Molde</p>
                 <div className="">
                 <Link to="/fabricación-piezas">ver mas</Link>
                 </div>

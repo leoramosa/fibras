@@ -165,15 +165,33 @@ const ServiceOne = () => {
         <div className="service_detail_content">
           <div className="service_detail">
               <ul>
-                <li>Realizamos reparaciones y manatenimiento a todo de piezas de fibra de vidrio. </li>
+                <li>Realizamos reparaciones y mantenimiento de todo tipo de piezas en fibra de vidrio como:
+                piscinas, jacuzzis, tinas de baño, hidromasajes, yates, escaleras telescópicas, lavatorios, etc y
+                todo lo relacionado a la fibra de vidrio.</li>
               </ul>
               <div className="service_detail_button">
               <div className="detail_request">
                    <div>Consultas: </div> <div className="content-link-request"><a className="whatsapp" href={`https://api.whatsapp.com/send?phone=51944408025&text=${services[1].mensaje}`} rel="noopener noreferrer"><i className="fab fa-whatsapp"></i> whatsapp </a> <a className="btn_email" href="mailto:fibras.lozano.eirl@gmail.com"  rel="noreferrer" target="_blank"><i className="far fa-envelope"></i> correo</a></div> 
                 </div>
-              <div className="detail_requestTwo">
-                Llamanos : <a href="tel://+51944408025" className="btn_call"><i className="fas fa-phone-alt"></i> +51 944 408 025</a>
-              </div>
+                <div className="call">
+                  <div className="">Llamanos: </div> 
+                  <div className="call_content">
+                    <div className="">
+                        <a href="tel://+016827932" className="">
+                          <button type="button" className="btn_call">
+                            <i className="fas fa-phone-alt"></i>(01) 682 7932
+                          </button>
+                        </a>
+                    </div> 
+                    <div className="">
+                        <a href="tel://+51944408025" className="">
+                          <button type="button" className="btn_call">
+                          <i className="fas fa-phone-alt"></i> +51 944 408 025
+                          </button>
+                        </a>
+                    </div>
+                  </div> 
+                </div>
               </div>
           </div>
           <div className="service_detail-img">
