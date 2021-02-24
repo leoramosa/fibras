@@ -38,7 +38,7 @@ import './styles/footer.css'
          
        </div>
        <div className="derechos desktop">
-         <p>© Copyright Fibras Lozano 20201 -Todos los derechos reservados</p>
+         <p>© Copyright Fibras Lozano 2021 -Todos los derechos reservados</p>
          <p className="diseño">Diseñado y desarrollado por <a className="dweb" href="https://leoramos.netlify.app/" target="_blank" rel="noreferrer"> Leonardo Ramos</a></p>
        </div>
        </div>
