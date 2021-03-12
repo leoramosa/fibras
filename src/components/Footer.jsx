@@ -24,7 +24,8 @@ import './styles/footer.css'
             <p><i className="fas fa-home"></i> (01) 682 7932</p>
             <p><i className="fab fa-whatsapp"></i> +51 944 408 025</p>
             <p><i className="far fa-envelope"></i> fibras.lozano.eirl@gmail.com</p>
-            <p><i className="fas fa-map-marker-alt"></i> Calle Ostigon MZ. 50 Lt.21 - Casa Previ | Callao</p>
+            <p className="derechos desktop"><i className="fas fa-map-marker-alt"></i> Calle Ostigon MZ. 50 Lt.21 - Casa Previ | Callao</p>
+            <p className="derechos mobile" ><i className="fas fa-map-marker-alt"></i> Calle Ostigon MZ. 50 Lt.21 <br/> Casa Previ | Callao</p>
            </div>
          </div>
          <div className="redes">
@@ -38,7 +39,12 @@ import './styles/footer.css'
          
        </div>
        <div className="derechos desktop">
-         <p>© Copyright Fibras Lozano 2021 -Todos los derechos reservados</p>
+         <p>© Copyright Fibras Lozano 2021 - Todos los derechos reservados</p>
+         <p className="diseño">Diseñado y desarrollado por <a className="dweb" href="https://leoramos.netlify.app/" target="_blank" rel="noreferrer"> Leonardo Ramos</a></p>
+       </div>
+       <div className="derechos mobile">
+         <p>© Copyright Fibras Lozano 2021</p>
+         <p>Todos los derechos reservados</p>
          <p className="diseño">Diseñado y desarrollado por <a className="dweb" href="https://leoramos.netlify.app/" target="_blank" rel="noreferrer"> Leonardo Ramos</a></p>
        </div>
        </div>

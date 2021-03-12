@@ -22,7 +22,7 @@ const Gallery = () => {
        <Swiper
       spaceBetween={50}
       slidesPerView={1}
-      /* autoplay={{ delay: 2500, disableOnInteraction: false }} */
+      autoplay={{ delay: 2500, disableOnInteraction: false }}
       loop={true}
       navigation
       pagination={{ clickable: true }}
